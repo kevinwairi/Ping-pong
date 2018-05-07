@@ -1,7 +1,22 @@
-.jumbotron	{
+body .container .jumbotron	{
 	background-image: url("../images/pingpong-logo-dark.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-blend-mode: screen;
-	height: 253px;
+	background-size: cover;
+	border-radius: 0;
+	margin-bottom: 0;
+	height: 200px;
+}
+.container	{
+	width: 80%;
+}
+.section	{
+	/*margin-top: 200px;*/
+	/*width: 80%;*/
+	height:100%;
+	background-image: url("../images/youtube.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+.content	{
+	padding-left: 300px;
+	color: yellow;
 }
