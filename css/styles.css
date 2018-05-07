@@ -1,8 +1,13 @@
-body .container .jumbotron	{
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+.container .jumbotron	{
 	background-image: url("../images/pingpong-logo-dark.png");
 	background-size: cover;
 	border-radius: 0;
 	margin-bottom: 0;
+	
 	height: 200px;
 }
 .container	{
@@ -18,5 +23,12 @@ body .container .jumbotron	{
 }
 .content	{
 	padding-left: 300px;
+	font-size: 15px;
+	color:#fff ;
+}
+.section .content form input{
+	color: black;
+}
+.section .content ol{
 	color: yellow;
 }
