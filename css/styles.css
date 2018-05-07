@@ -2,13 +2,14 @@
 * {
 	font-family: 'Fira Sans', sans-serif;
 }
-.container .jumbotron	{
+body .container .jumbotron	{
 	background-image: url("../images/pingpong-logo-dark.png");
-	background-size: cover;
-	border-radius: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 0px;
 	margin-bottom: 0;
 	
-	height: 200px;
+	height: 130px;
 }
 .container	{
 	width: 80%;
@@ -25,10 +26,22 @@
 	padding-left: 300px;
 	font-size: 15px;
 	color:#fff ;
+	margin-bottom: 257px;
 }
 .section .content form input{
 	color: black;
 }
 .section .content ol{
 	color: yellow;
+}
+.footer	{
+	background-color: #b3974c;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	float: left;
+}
+.footer div{
+	display: inline-block;
+	padding-right: 150px;
 }
